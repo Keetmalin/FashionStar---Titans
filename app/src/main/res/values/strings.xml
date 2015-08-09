@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FashionStar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splashscreen_">Splashscreen_Activity</string>
+    <string name="title_activity_home_page_">HomePage_Activity</string>
+    <string name="title_activity_enter_dimensions_">EnterDimensions_Activity</string>
+    <string name="title_activity_shopping_menu_">ShoppingMenu_Activity</string>
+    <string name="title_activity_create_model_">CreateModel_Activity</string>
+</resources>

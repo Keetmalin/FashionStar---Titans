@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keetmalin.fashionstar" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Splashscreen_Activity"
+            android:label="@string/title_activity_splashscreen_" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Main_Activity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".HomePage_Activity"
+            android:label="@string/title_activity_home_page_" >
+        </activity>
+        <activity
+            android:name=".EnterDimensions_Activity"
+            android:label="@string/title_activity_enter_dimensions_" >
+        </activity>
+        <activity
+            android:name=".ShoppingMenu_Activity"
+            android:label="@string/title_activity_shopping_menu_" >
+        </activity>
+        <activity
+            android:name=".CreateModel_Activity"
+            android:label="@string/title_activity_create_model_" >
+        </activity>
+    </application>
+
+</manifest>
